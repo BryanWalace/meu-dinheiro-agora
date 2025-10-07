@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Clash Grotesk';
+}
+
+:root {
+  --primary-green: #00c853;
+  --secondary-pink: #ff4081;
+  --dark-gray: #333;
+  --light-gray: #f4f4f4;
+}
+
+body {
+  margin: 0;
+  font-family: 'roboto', sans-serif;
+  background-color: #fff;
+}
+

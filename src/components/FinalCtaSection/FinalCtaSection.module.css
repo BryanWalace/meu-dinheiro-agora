@@ -1,0 +1,89 @@
+.section {
+  padding: 100px 5%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.greenBlobLeft {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  z-index: -1;
+  width: 300px;
+}
+
+.greenBlobRight {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  z-index: -1;
+  width: 300px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.title span {
+  color: #00C853;
+}
+
+.text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.ctaButton {
+  background-color: #FF194F;
+  color: white;
+  width: 376px;
+  height: 69px;
+  padding: 10px;
+  border: none;
+  border-radius: 27px;
+  font-size: 27px;
+  font-weight: extra-bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+@media (max-width: 768px) {
+  .ctaButton {
+    width: 100%;
+    font-size: 20px;
+    height: 60px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 60px 5%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 393px) {
+  .section {
+    padding: 40px 5%;
+  }
+}

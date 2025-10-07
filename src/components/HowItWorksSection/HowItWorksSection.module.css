@@ -1,0 +1,158 @@
+.greenBlobRight {
+  position: absolute;
+  top: 0px; 
+  right: -150px;
+  z-index: -1;
+  width: 1000px; 
+  height: 500px;  
+}
+
+.arrowDown {
+  display: none;
+}
+
+.section {
+  padding: 80px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  max-width: 1762px;
+}
+
+.leftColumn {
+  flex: 1;
+}
+
+.leftColumn h2 {
+  font-size: 54px;
+  color: #444444;
+}
+
+.leftColumn p {
+  font-size: 35.35px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 51.57px;
+  margin-bottom: 16px;
+  font-size: 34.38px;
+  color: #333;
+  justify-content: space-between;
+}
+
+.rightColumn {
+  flex: 1;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: 24px;
+  margin-bottom: 30px;
+}
+
+.ctaButton {
+  background-color: #FF194F;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.ctaButton:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1200px) {
+  .arrowRight {
+    display: none;
+  }
+
+  .arrowDown {
+    display: block;
+  }
+  
+  
+  .greenBlobRight {
+    display: none; 
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .leftColumn, .rightColumn {
+    flex: none;
+    width: 100%;
+  }
+
+  .leftColumn h2 {
+    font-size: 36px;
+  }
+
+  .leftColumn p {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .step {
+    font-size: 20px;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .step img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .rightColumn {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 393px) {
+  .arrowRight {
+    display: none;
+  }
+
+  .arrowDown {
+    display: block;
+  }
+  
+  .leftColumn h2 {
+    font-size: 28px;
+  }
+
+  .leftColumn p {
+    font-size: 20px;
+  }
+
+  .step {
+    font-size: 16px;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  .ctaButton {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+}

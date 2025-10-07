@@ -1,0 +1,84 @@
+.section {
+  padding: 80px 5%;
+  background-color: #FAFAFA;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 60px;
+}
+
+.title span {
+  color: #00C853;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.advantageItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.advantageItem p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.ctaButton {
+  background-color: #FF194F;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-top: 60px;
+}
+
+.ctaButton:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .greenBlob, .greenBlobRight {
+    display: none; 
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 393px) {
+  .section {
+    padding: 60px 5%;
+  }
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .advantageItem p {
+    font-size: 14px;
+  }
+
+  .ctaButton {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+}

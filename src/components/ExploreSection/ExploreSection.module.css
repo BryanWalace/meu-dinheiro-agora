@@ -1,0 +1,158 @@
+.section {
+  padding: 80px 5%;
+  position: relative;
+  overflow: hidden;
+}
+
+.greenBlob {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  z-index: -1;
+  width: 400px;
+}
+
+.greenBlobLeft {
+  position: absolute;
+  bottom: 970px;
+  left: 0px;
+  z-index: -1;
+  width: 600px;
+  height: 450px;
+}
+
+.greenBlobRight {
+  position: absolute;
+  bottom: 500px;
+  right: -100px;
+  z-index: -1;
+  width: 700px;
+  height: 450px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.header h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.header h2 span {
+  color: #00C853;
+}
+
+.header p {
+  font-size: 18px;
+  color: #555;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.categoryTitle {
+  text-align: center;
+  font-size: 28px;
+  color: #00C853;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 341.14px;
+  height: 569px;
+}
+
+.cardImage {
+  width: 341.14px;
+  height: 286px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.cardTitle {
+  font-size: 43px;
+  font-weight: extra-bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.cardDescription {
+  font-size: 20px;
+  color: #555;
+  line-height: 1.5;
+  max-width: 280px;
+}
+
+@media (max-width: 768px) {
+  .greenBlob, .greenBlobRight , .greenBlobLeft {
+    display: none; 
+  }
+
+  .grid {
+    grid-template-columns: 1fr; 
+    justify-items: center;
+    text-align: center;
+  }
+
+  .header h2 {
+    font-size: 28px;
+  }
+
+  .categoryTitle {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 393px) {
+  .section {
+    padding: 40px 3%;
+  }
+
+  .header h2 {
+    font-size: 24px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  .categoryTitle {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .cardImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .cardTitle {
+    font-size: 32px;
+  }
+
+  .cardDescription {
+    font-size: 16px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}

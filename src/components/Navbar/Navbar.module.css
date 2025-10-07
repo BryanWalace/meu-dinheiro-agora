@@ -1,0 +1,46 @@
+.header {
+  padding: 20px 5%;
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 42px 150px 0 150px;
+  max-width: 1138px;
+  max-height: 41px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 84px;
+  height: 41px;
+}
+
+.ctaButton {
+  display: flex;
+  align-items: center;
+  width: 172px;
+  height: 40.71px;
+  gap: 8px;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15.94px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton img {
+  height: 21,36px;
+  width: 21.36px;
+}
+
+.ctaButton:hover {
+  background-color: #1DAE56;
+}
