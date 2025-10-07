@@ -83,6 +83,15 @@
 }
 
 @media (max-width: 393px) {
+.greenBlobLeft {
+    width: 150px;
+    top: 20px;
+  }
+  .greenBlobRight {
+    width: 150px;
+    bottom: 10px;
+  }
+
   .section {
     padding: 40px 5%;
   }
