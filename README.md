@@ -6,7 +6,7 @@ Projeto de uma landing page moderna e totalmente responsiva, desenvolvida com Re
 
 ### Demo Ao Vivo
 
-Você pode ver o site em funcionamento no link abaixo (lembre-se de atualizar com sua URL do GitHub Pages):
+Você pode ver o site em funcionamento no link abaixo:
 
 ➡️ **[Ver Demonstração Ao Vivo](https://meu-dinheiro-agora.vercel.app/)**
 
@@ -31,7 +31,7 @@ A seguinte stack foi utilizada para desenvolver este projeto:
 * **[Vite](https://vitejs.dev/)**: Ferramenta de build moderna e extremamente rápida para o desenvolvimento front-end.
 * **[CSS Modules](https://github.com/css-modules/css-modules)**: Para estilização local e encapsulada dos componentes.
 * **[Git](https://git-scm.com/)**: Para versionamento de código.
-* **[GitHub Pages](https://pages.github.com/)**: Para a hospedagem e deploy do site.
+* **[Vercel](https://meu-dinheiro-agora.vercel.app/)**: Para a hospedagem e deploy do site.
 
 ---
 
@@ -46,7 +46,7 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
 
 2.  **Navegue até a pasta do projeto:**
     ```bash
-    cd nome-do-repositorio
+    cd meu-dinheiro-agora
     ```
 
 3.  **Instale as dependências:**
