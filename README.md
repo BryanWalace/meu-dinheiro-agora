@@ -8,7 +8,7 @@ Projeto de uma landing page moderna e totalmente responsiva, desenvolvida com Re
 
 Você pode ver o site em funcionamento no link abaixo (lembre-se de atualizar com sua URL do GitHub Pages):
 
-➡️ **[Ver Demonstração Ao Vivo](https://seu-usuario.github.io/seu-repositorio/)**
+➡️ **[Ver Demonstração Ao Vivo](https://meu-dinheiro-agora.vercel.app/)**
 
 ---
 
@@ -41,7 +41,7 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/BryanWalace/meu-dinheiro-agora](https://github.com/BryanWalace/meu-dinheiro-agora)
+    git clone https://github.com/BryanWalace/meu-dinheiro-agora
     ```
 
 2.  **Navegue até a pasta do projeto:**
